@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="Department" max_length="40" name="x_206818_attendanc_department" type="collection">
+        <element label="Dept ID" max_length="40" name="dept_id" type="integer"/>
+        <element display="true" label="Name" max_length="25" name="name" type="string"/>
+        <element label="Strength" max_length="40" name="strength" type="integer"/>
+        <index name="index">
+            <element name="dept_id"/>
+        </index>
+    </element>
+</database>

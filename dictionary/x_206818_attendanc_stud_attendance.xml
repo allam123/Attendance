@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="Stud_Attendance" max_length="40" name="x_206818_attendanc_stud_attendance" type="collection">
+        <element label="Date" max_length="40" name="date" read_only="true" type="glide_date"/>
+        <element label="Hours" max_length="40" name="hours" type="integer"/>
+        <element label="Mark attendance" max_length="40" name="mark_attendance" type="boolean"/>
+        <element label="Roll No" max_length="40" name="roll_no" read_only="true" reference="x_206818_attendanc_login" type="string"/>
+        <index name="index">
+            <element name="date"/>
+            <element name="roll_no"/>
+        </index>
+    </element>
+</database>

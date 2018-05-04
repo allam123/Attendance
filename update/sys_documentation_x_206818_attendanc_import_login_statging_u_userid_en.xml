@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_userid" label="UserId" language="en" table="x_206818_attendanc_import_login_statging">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_userid</element>
+            <help/>
+            <hint/>
+            <label>UserId</label>
+            <language>en</language>
+            <name>x_206818_attendanc_import_login_statging</name>
+            <plural>UserIds</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-30 05:09:55</sys_created_on>
+            <sys_id>265582dddb3d1300e2d17b1ebf961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>UserId</sys_name>
+            <sys_package display_value="Attendance" source="x_206818_attendanc">b8d2a373db911300e2d17b1ebf9619ea</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Attendance">b8d2a373db911300e2d17b1ebf9619ea</sys_scope>
+            <sys_update_name>sys_documentation_x_206818_attendanc_import_login_statging_u_userid_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-30 05:09:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

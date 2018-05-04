@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Today Report">cdd61bc6db219300e2d17b1ebf961973</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-20 08:45:38</sys_created_on>
+        <sys_id>0dd61bc6db219300e2d17b1ebf961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cdd61bc6db219300e2d17b1ebf961973</sys_name>
+        <sys_package display_value="Attendance" source="x_206818_attendanc">b8d2a373db911300e2d17b1ebf9619ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance">b8d2a373db911300e2d17b1ebf9619ea</sys_scope>
+        <sys_update_name>sys_report_users_groups_0dd61bc6db219300e2d17b1ebf961974</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-20 08:45:38</sys_updated_on>
+        <user_id display_value="Sharath Kumar">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+</record_update>

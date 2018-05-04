@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="activity_admin" name="activity_admin">b453c203c3213100ad408039dfba8fb0</contains>
+        <role display_value="x_206818_attendanc.Principal" name="x_206818_attendanc.Principal">e2434b0ddb251300e2d17b1ebf96191d</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-19 15:07:33</sys_created_on>
+        <sys_id>3da4ab71dba95300e2d17b1ebf96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>activity_admin.x_206818_attendanc.Principal</sys_name>
+        <sys_package display_value="Attendance" source="x_206818_attendanc">b8d2a373db911300e2d17b1ebf9619ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance">b8d2a373db911300e2d17b1ebf9619ea</sys_scope>
+        <sys_update_name>sys_user_role_contains_3da4ab71dba95300e2d17b1ebf96197d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-19 15:07:33</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

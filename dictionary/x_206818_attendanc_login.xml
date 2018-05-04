@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Login" max_length="40" name="x_206818_attendanc_login" type="collection">
+        <element choice="1" display="true" label="Dept ID" mandatory="true" max_length="40" name="dept_id" reference="x_206818_attendanc_department" type="integer">
+            <choice>
+                <element label="CSE" sequence="0" value="5"/>
+                <element label="IT" sequence="1" value="12"/>
+                <element label="ECE" sequence="2" value="4"/>
+                <element label="EEE" sequence="3" value="2"/>
+            </choice>
+        </element>
+        <element label="Password" mandatory="true" max_length="20" name="password" type="password"/>
+        <element choice="1" label="Role" mandatory="true" max_length="40" name="role" reference="x_206818_attendanc_role" type="string">
+            <choice>
+                <element label="Student" sequence="0" value="3"/>
+                <element label="Professor" sequence="1" value="2"/>
+                <element label="Principal" sequence="2" value="1"/>
+            </choice>
+        </element>
+        <element label="User ID" mandatory="true" max_length="10" name="user_id" type="string"/>
+        <index name="index">
+            <element name="user_id"/>
+        </index>
+    </element>
+</database>

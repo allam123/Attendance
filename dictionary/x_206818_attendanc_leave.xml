@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Leave" max_length="40" name="x_206818_attendanc_leave" type="collection">
+        <element label="Date" mandatory="true" max_length="40" name="date" type="glide_date"/>
+        <element label="Reason" mandatory="true" max_length="200" name="reason" type="string"/>
+        <element label="Roll No" max_length="40" name="roll_no" read_only="true" reference="x_206818_attendanc_login" type="string"/>
+        <index name="index">
+            <element name="date"/>
+            <element name="roll_no"/>
+        </index>
+    </element>
+</database>

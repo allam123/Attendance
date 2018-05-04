@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Role" max_length="40" name="x_206818_attendanc_role" type="collection">
+        <element display="true" label="RollName" max_length="10" name="rollname" type="string"/>
+        <element label="Value" max_length="40" name="value" type="integer"/>
+        <index name="index">
+            <element name="value"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>date,roll_no</col_name_string>
+        <index_col_name>8b88eb73db911300e2d17b1ebf961953,0148ab77db911300e2d17b1ebf96191d</index_col_name>
+        <logical_table_name>x_206818_attendanc_stud_attendance</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-13 10:23:59</sys_created_on>
+        <sys_id>ed3a63f3db911300e2d17b1ebf96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_206818_attendanc_stud_attendance</sys_name>
+        <sys_package display_value="Attendance" source="x_206818_attendanc">b8d2a373db911300e2d17b1ebf9619ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance">b8d2a373db911300e2d17b1ebf9619ea</sys_scope>
+        <sys_update_name>sys_index_x_206818_attendanc_stud_attendance_date_roll_no</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-13 10:23:59</sys_updated_on>
+        <table display_value="Stud_Attendance" name="x_206818_attendanc_stud_attendance">58486777db911300e2d17b1ebf96197e</table>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>

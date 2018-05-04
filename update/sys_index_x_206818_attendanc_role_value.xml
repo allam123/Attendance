@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>value</col_name_string>
+        <index_col_name element="value" name="x_206818_attendanc_role">a6d32f73db911300e2d17b1ebf961944</index_col_name>
+        <logical_table_name>x_206818_attendanc_role</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-13 09:59:55</sys_created_on>
+        <sys_id>99b46ff3db911300e2d17b1ebf961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_206818_attendanc_role</sys_name>
+        <sys_package display_value="Attendance" source="x_206818_attendanc">b8d2a373db911300e2d17b1ebf9619ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance">b8d2a373db911300e2d17b1ebf9619ea</sys_scope>
+        <sys_update_name>sys_index_x_206818_attendanc_role_value</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-13 09:59:55</sys_updated_on>
+        <table display_value="Role" name="x_206818_attendanc_role">6973a7f3db911300e2d17b1ebf961923</table>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>

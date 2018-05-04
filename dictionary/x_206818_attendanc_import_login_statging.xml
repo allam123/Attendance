@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="import_login_statging" max_length="40" name="x_206818_attendanc_import_login_statging" type="collection">
+        <element attributes="import_attribute_name=Password,edge_encryption_enabled=true" label="Password" max_length="40" name="u_password" type="string"/>
+        <element attributes="import_attribute_name=UserId,edge_encryption_enabled=true" label="UserId" max_length="40" name="u_userid" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>mark_attendance</field>
+        <global>true</global>
+        <messages/>
+        <name>stud_attendance_onchange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading) 
+   {
+      return;
+   }
+	//alert(newValue);
+	if(newValue=='false')
+		{
+			g_form.clearValue('hours');
+			g_form.setDisabled('hours',true);
+		}
+	if(newValue=='true')
+		{
+			g_form.setDisabled('hours',false);
+		}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-16 17:28:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6fb620c5db211300e2d17b1ebf9619ba</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>stud_attendance_onchange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Attendance" source="x_206818_attendanc">b8d2a373db911300e2d17b1ebf9619ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance">b8d2a373db911300e2d17b1ebf9619ea</sys_scope>
+        <sys_update_name>sys_script_client_6fb620c5db211300e2d17b1ebf9619ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-17 09:34:49</sys_updated_on>
+        <table>x_206818_attendanc_stud_attendance</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

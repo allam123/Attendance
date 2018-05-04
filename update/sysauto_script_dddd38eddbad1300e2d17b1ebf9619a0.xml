@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Daily Presenters</name>
+        <run_as display_value="Sharath Kumar">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-04-18 08:20:12</run_start>
+        <run_time>1970-01-01 18:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var rightNow = new GlideDateTime();
+
+	// Query the database for NeedIt Task records with Due date field values older
+	// than the current time.  Only return NeedIt Task records that do not have
+	// a State field value of Closed Complete.
+	var gr = new GlideRecord('x_206818_attendanc_stud_attendance');
+	gr.addQuery('date','=',rightNow);
+	//overdueNITasks.addQuery('state','!=',3);
+
+	gr.query();
+    gs.eventQueue('x_206818_attendanc.attendanceEvent',gr,gs.getUserId(),gs.getUserName());
+	// Write a log message for each overdue NeedIt Task Record
+	while(gr.next()){
+		gs.info(gr.roll_no+' '+gr.hours);
+	}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 08:26:41</sys_created_on>
+        <sys_id>dddd38eddbad1300e2d17b1ebf9619a0</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Daily Presenters</sys_name>
+        <sys_package display_value="Attendance" source="x_206818_attendanc">b8d2a373db911300e2d17b1ebf9619ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance">b8d2a373db911300e2d17b1ebf9619ea</sys_scope>
+        <sys_update_name>sysauto_script_dddd38eddbad1300e2d17b1ebf9619a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-21 06:24:37</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

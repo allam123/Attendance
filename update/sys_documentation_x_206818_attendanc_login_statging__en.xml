@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="login_statging" language="en" table="x_206818_attendanc_login_statging">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>login_statging</label>
+            <language>en</language>
+            <name>x_206818_attendanc_login_statging</name>
+            <plural>login_statgings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-30 05:01:10</sys_created_on>
+            <sys_id>ea53429ddb3d1300e2d17b1ebf9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>login_statging</sys_name>
+            <sys_package display_value="Attendance" source="x_206818_attendanc">b8d2a373db911300e2d17b1ebf9619ea</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Attendance">b8d2a373db911300e2d17b1ebf9619ea</sys_scope>
+            <sys_update_name>sys_documentation_x_206818_attendanc_login_statging__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-30 05:01:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

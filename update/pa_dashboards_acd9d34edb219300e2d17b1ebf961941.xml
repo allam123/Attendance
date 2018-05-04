@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_dashboards">
+    <pa_dashboards action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <breakdown_source/>
+        <group/>
+        <groups/>
+        <is_breakdown>false</is_breakdown>
+        <managed_breakdown/>
+        <managed_publisher/>
+        <name>System Administration</name>
+        <no_tabs>false</no_tabs>
+        <order/>
+        <owner display_value="Ramesh K">2ec4b959db691300e2d17b1ebf96199e</owner>
+        <restrict_to_roles/>
+        <role_override>true</role_override>
+        <roles/>
+        <should_migrate_permissions>false</should_migrate_permissions>
+        <sys_class_name>pa_dashboards</sys_class_name>
+        <sys_created_by>gnits.principal</sys_created_by>
+        <sys_created_on>2018-04-20 08:58:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>acd9d34edb219300e2d17b1ebf961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>System Administration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Attendance" source="x_206818_attendanc">b8d2a373db911300e2d17b1ebf9619ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance">b8d2a373db911300e2d17b1ebf9619ea</sys_scope>
+        <sys_update_name>pa_dashboards_acd9d34edb219300e2d17b1ebf961941</sys_update_name>
+        <sys_updated_by>gnits.principal</sys_updated_by>
+        <sys_updated_on>2018-04-20 08:58:42</sys_updated_on>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_dashboards>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by display_value="x_206818_attendanc.Principal" name="x_206818_attendanc.Principal">e2434b0ddb251300e2d17b1ebf96191d</assignable_by>
+        <can_delegate>true</can_delegate>
+        <description>Student to mark attendance</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_206818_attendanc.student</name>
+        <suffix>student</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-17 04:46:46</sys_created_on>
+        <sys_id>a253030ddb251300e2d17b1ebf96192e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_206818_attendanc.student</sys_name>
+        <sys_package display_value="Attendance" source="x_206818_attendanc">b8d2a373db911300e2d17b1ebf9619ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance">b8d2a373db911300e2d17b1ebf9619ea</sys_scope>
+        <sys_update_name>sys_user_role_a253030ddb251300e2d17b1ebf96192e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-17 16:01:25</sys_updated_on>
+    </sys_user_role>
+</record_update>

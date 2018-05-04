@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <messages/>
+        <name>date_validation</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	var actualDate=g_form.getValue('date');
+   //alert(actualDate);
+	var currentDateObj = new Date();   
+	var currentDateStr = formatDate(currentDateObj, g_user_date_format);   
+    var currentDateNum = getDateFromFormat(currentDateStr, g_user_date_format);   
+    var actualDateNum = getDateFromFormat(actualDate, g_user_date_format);   
+	//alert(actualDateNum+' '+currentDateNum);
+    if (actualDateNum < currentDateNum || actualDateNum > currentDateNum) {   
+       //g_form.showFieldMsg('Please ensure that the date is todays date!', 'error');
+		g_form.addErrorMessage('Please ensure that the date is todays date');
+       return false;
+     }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-17 10:25:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>76705c9ddba51300e2d17b1ebf961938</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>date_validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Attendance" source="x_206818_attendanc">b8d2a373db911300e2d17b1ebf9619ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance">b8d2a373db911300e2d17b1ebf9619ea</sys_scope>
+        <sys_update_name>sys_script_client_76705c9ddba51300e2d17b1ebf961938</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-17 16:13:32</sys_updated_on>
+        <table>x_206818_attendanc_stud_attendance</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
